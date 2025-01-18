@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yousef Aburayyan’s Blog</title><description>my blog</description><link>https://yousefra.github.io/</link><item><title>Hello, World</title><link>https://yousefra.github.io/blog/undefined/</link><guid isPermaLink="true">https://yousefra.github.io/blog/undefined/</guid><description>this is a post example</description><pubDate>Sat, 21 Jan 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Hi there!&lt;/h1&gt;
+&lt;p&gt;This Markdown file creates a page at &lt;code&gt;your-domain.com/blog/post1/&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;It probably isn&apos;t styled much, but Markdown does support:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;bold&lt;/strong&gt; and &lt;em&gt;italics.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;lists&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://astro.build&quot;&gt;links&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;and more!&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded></item><item><title>n8n</title><link>https://yousefra.github.io/blog/undefined/</link><guid isPermaLink="true">https://yousefra.github.io/blog/undefined/</guid><description>AI powered workflows</description><pubDate>Sat, 21 Jan 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;n8n&lt;/h1&gt;
+&lt;p&gt;TLDR: &lt;a href=&quot;#alternative&quot;&gt;Alternative&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Editions&lt;/h2&gt;
+&lt;h3&gt;Available Features in Community Edition&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ Workflow creation and execution&lt;/li&gt;
+&lt;li&gt;✅ Basic authentication&lt;/li&gt;
+&lt;li&gt;✅ Most integration nodes&lt;/li&gt;
+&lt;li&gt;✅ Webhook functionality&lt;/li&gt;
+&lt;li&gt;✅ Basic error handling&lt;/li&gt;
+&lt;li&gt;✅ Local storage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Enterprise-Only Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;❌ SSO&lt;/li&gt;
+&lt;li&gt;❌ LDAP&lt;/li&gt;
+&lt;li&gt;❌ External Secrets&lt;/li&gt;
+&lt;li&gt;❌ Multiple Environments&lt;/li&gt;
+&lt;li&gt;❌ Advanced user management&lt;/li&gt;
+&lt;li&gt;❌ Advanced security features&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Features&lt;/h2&gt;
+&lt;h3&gt;What You CAN Do with Community Edition ✅&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Core Workflow Features&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Create unlimited workflows&lt;/li&gt;
+&lt;li&gt;Use all basic nodes (HTTP, Email, Database, etc.)&lt;/li&gt;
+&lt;li&gt;Schedule automations&lt;/li&gt;
+&lt;li&gt;Use webhooks&lt;/li&gt;
+&lt;li&gt;Connect to most third-party services&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Basic Integrations&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;CRM systems (HubSpot, Salesforce, etc.)&lt;/li&gt;
+&lt;li&gt;Email services&lt;/li&gt;
+&lt;li&gt;Cloud storage (Google Drive, Dropbox)&lt;/li&gt;
+&lt;li&gt;Social media platforms&lt;/li&gt;
+&lt;li&gt;Payment systems&lt;/li&gt;
+&lt;li&gt;Databases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Basic Operations&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Data transformation&lt;/li&gt;
+&lt;li&gt;Error handling&lt;/li&gt;
+&lt;li&gt;Conditional logic&lt;/li&gt;
+&lt;li&gt;Loops and arrays&lt;/li&gt;
+&lt;li&gt;File operations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Single User Access&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Full admin control&lt;/li&gt;
+&lt;li&gt;Workflow management&lt;/li&gt;
+&lt;li&gt;API access&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;What You CANNOT Do (Enterprise/Cloud Features) ❌&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;User Management&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;No multiple user accounts&lt;/li&gt;
+&lt;li&gt;No role-based access&lt;/li&gt;
+&lt;li&gt;No sharing workflows with specific users&lt;/li&gt;
+&lt;li&gt;No user groups&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Advanced Security&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;No SSO integration&lt;/li&gt;
+&lt;li&gt;No LDAP&lt;/li&gt;
+&lt;li&gt;No advanced authentication&lt;/li&gt;
+&lt;li&gt;No IP restrictions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Environment Management&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;No separate dev/staging/prod environments&lt;/li&gt;
+&lt;li&gt;No environment-specific variables&lt;/li&gt;
+&lt;li&gt;No sharing credentials across instances&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Advanced Features&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;No external secrets management&lt;/li&gt;
+&lt;li&gt;No advanced logging&lt;/li&gt;
+&lt;li&gt;No audit logs&lt;/li&gt;
+&lt;li&gt;No advanced backup features&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Can You Run a Business with Community Edition?&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Yes, if:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;You&apos;re a small team/single user&lt;/li&gt;
+&lt;li&gt;Don&apos;t need multiple user access&lt;/li&gt;
+&lt;li&gt;Can manage security manually&lt;/li&gt;
+&lt;li&gt;Don&apos;t require enterprise-grade features&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Consider upgrading if:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;You need to give access to multiple team members&lt;/li&gt;
+&lt;li&gt;Require strict security compliance&lt;/li&gt;
+&lt;li&gt;Need separate environments for testing&lt;/li&gt;
+&lt;li&gt;Handle sensitive enterprise data&lt;/li&gt;
+&lt;li&gt;Need advanced audit capabilities&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Limitations to Consider&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Scaling Issues
+&lt;ul&gt;
+&lt;li&gt;All workflows run on single instance&lt;/li&gt;
+&lt;li&gt;Limited by server resources&lt;/li&gt;
+&lt;li&gt;No load balancing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Security
+&lt;ul&gt;
+&lt;li&gt;Basic authentication only&lt;/li&gt;
+&lt;li&gt;Manual credential management&lt;/li&gt;
+&lt;li&gt;No enterprise-grade security features&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Maintenance
+&lt;ul&gt;
+&lt;li&gt;Manual updates required&lt;/li&gt;
+&lt;li&gt;Self-managed backups&lt;/li&gt;
+&lt;li&gt;Self-managed monitoring&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Recommendation&lt;/h3&gt;
+&lt;p&gt;For starting out and testing business workflows, Community Edition is perfectly fine. You can:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Build and test your workflows&lt;/li&gt;
+&lt;li&gt;Serve initial customers&lt;/li&gt;
+&lt;li&gt;Prove the business concept&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Consider upgrading when you:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Need to scale operations&lt;/li&gt;
+&lt;li&gt;Have multiple team members&lt;/li&gt;
+&lt;li&gt;Require enterprise security&lt;/li&gt;
+&lt;li&gt;Need advanced management features&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Licensing / Building your own&lt;/h2&gt;
+&lt;h3&gt;Legal Considerations ⚠️&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;n8n is licensed under the &quot;Sustainable Use License&quot;&lt;/li&gt;
+&lt;li&gt;Creating a clone to bypass licensing would likely violate intellectual property rights&lt;/li&gt;
+&lt;li&gt;This could lead to legal issues&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Ref:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/n8n-io/n8n/blob/master/LICENSE.md&quot;&gt;LICENSE.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/n8n-io/n8n/blob/master/LICENSE_EE.md&quot;&gt;LICENSE_EE.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Technical Complexity for rebuilding n8n 🔧&lt;/h2&gt;
+&lt;h3&gt;Estimated Time:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Small team (3-5 developers): 1-2 years&lt;/li&gt;
+&lt;li&gt;Core features only: 6-12 months&lt;/li&gt;
+&lt;li&gt;Full feature parity: 2+ years&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Required Components:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Workflow Engine&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Node execution system&lt;/li&gt;
+&lt;li&gt;Data flow management&lt;/li&gt;
+&lt;li&gt;Error handling&lt;/li&gt;
+&lt;li&gt;Queue management&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Frontend Interface&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Workflow designer&lt;/li&gt;
+&lt;li&gt;Node configuration UI&lt;/li&gt;
+&lt;li&gt;Real-time execution monitoring&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Integration System&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;API connectors&lt;/li&gt;
+&lt;li&gt;Authentication handlers&lt;/li&gt;
+&lt;li&gt;Data transformation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Backend Infrastructure&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Database management&lt;/li&gt;
+&lt;li&gt;File storage&lt;/li&gt;
+&lt;li&gt;User management&lt;/li&gt;
+&lt;li&gt;API endpoints&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Alternative&lt;/h2&gt;
+&lt;h3&gt;Legal Ways to Profit ✅&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Build Solutions for Clients
+&lt;ul&gt;
+&lt;li&gt;Create custom workflows&lt;/li&gt;
+&lt;li&gt;Charge for implementation&lt;/li&gt;
+&lt;li&gt;Provide maintenance services&lt;/li&gt;
+&lt;li&gt;Offer training&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Become n8n Solution Provider
+&lt;ul&gt;
+&lt;li&gt;Partner with n8n officially&lt;/li&gt;
+&lt;li&gt;Resell n8n enterprise licenses&lt;/li&gt;
+&lt;li&gt;Add value through customization&lt;/li&gt;
+&lt;li&gt;Provide managed hosting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Your Service Stack:
+&lt;ul&gt;
+&lt;li&gt;n8n Community Edition (Base)&lt;/li&gt;
+&lt;li&gt;Your Custom Workflows&lt;/li&gt;
+&lt;li&gt;Your Integration Services&lt;/li&gt;
+&lt;li&gt;Your Support Services&lt;/li&gt;
+&lt;li&gt;Your Industry Expertise&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Consulting Business Model
+&lt;ul&gt;
+&lt;li&gt;Workflow optimization&lt;/li&gt;
+&lt;li&gt;Process automation&lt;/li&gt;
+&lt;li&gt;Integration consulting&lt;/li&gt;
+&lt;li&gt;Training programs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;What to Avoid ❌&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Reselling Community Edition as your own&lt;/li&gt;
+&lt;li&gt;Modifying and redistributing the code&lt;/li&gt;
+&lt;li&gt;Bypassing license restrictions&lt;/li&gt;
+&lt;li&gt;Creating direct competitors&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Profitable Business Model Example&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;Service Tiers:
+1. Basic Package
+   ├── Workflow Setup
+   ├── Basic Training
+   └── Email Support
+
+2. Professional Package
+   ├── Custom Workflows
+   ├── Integration Setup
+   ├── Priority Support
+   └── Monthly Maintenance
+
+3. Enterprise Package
+   ├── n8n Enterprise License
+   ├── Custom Development
+   ├── 24/7 Support
+   └── Dedicated Manager
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;Revenue Streams&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Setup Fees
+&lt;ul&gt;
+&lt;li&gt;Initial configuration&lt;/li&gt;
+&lt;li&gt;Workflow creation&lt;/li&gt;
+&lt;li&gt;Integration setup&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Monthly Services
+&lt;ul&gt;
+&lt;li&gt;Maintenance&lt;/li&gt;
+&lt;li&gt;Monitoring&lt;/li&gt;
+&lt;li&gt;Updates&lt;/li&gt;
+&lt;li&gt;Support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Training
+&lt;ul&gt;
+&lt;li&gt;User workshops&lt;/li&gt;
+&lt;li&gt;Admin training&lt;/li&gt;
+&lt;li&gt;Best practices&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Custom Development
+&lt;ul&gt;
+&lt;li&gt;Special integrations&lt;/li&gt;
+&lt;li&gt;Custom nodes&lt;/li&gt;
+&lt;li&gt;Specific features&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Example Pricing Structure&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;1. Setup Services
+   ├── Basic Workflow: $500-1,000
+   ├── Complex Workflow: $1,000-3,000
+   └── Enterprise Setup: $5,000+
+
+2. Monthly Services
+   ├── Basic Support: $100-300/month
+   ├── Professional: $500-1,000/month
+   └── Enterprise: $1,000+/month
+
+3. Training
+   ├── Basic Training: $200/session
+   ├── Advanced: $500/session
+   └── Custom Workshop: $1,000+
+&lt;/code&gt;&lt;/pre&gt;
+</content:encoded></item><item><title>Hello, World</title><link>https://yousefra.github.io/blog/undefined/</link><guid isPermaLink="true">https://yousefra.github.io/blog/undefined/</guid><description>this is a post example</description><pubDate>Sat, 21 Jan 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;⚡️astro-bento-portfolio&lt;/h1&gt;
+&lt;h2&gt;A personal portfolio website made using &lt;code&gt;Astro&lt;/code&gt;.&lt;/h2&gt;
+&lt;p&gt;&amp;lt;!--  --&amp;gt;&lt;/p&gt;
+&lt;p&gt;To view a demo example, &lt;strong&gt;&lt;a href=&quot;https://sparkly-speculoos-0c9197.netlify.app/&quot;&gt;click here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;or my portfolio &lt;strong&gt;&lt;a href=&quot;https://gianmarcocavallo.com&quot;&gt;click here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Modern and Minimal bento-like, sleek UI Design&lt;/li&gt;
+&lt;li&gt;All in one page (almost)&lt;/li&gt;
+&lt;li&gt;Fully Responsive&lt;/li&gt;
+&lt;li&gt;Performances and SEO optimizations&lt;/li&gt;
+&lt;li&gt;Ready to be deployed on &lt;a href=&quot;https://www.netlify.com/&quot;&gt;Netlify&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Blog&lt;/li&gt;
+&lt;li&gt;RSS support (your-domain/rss.xml)&lt;/li&gt;
+&lt;li&gt;Cool 3d globe&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Tech Stack&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://astro.build&quot;&gt;Astro&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://unocss.dev/&quot;&gt;unocss&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://motion.dev/&quot;&gt;motion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://d3js.org/&quot;&gt;d3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Steps ▶️&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;# Clone this repository
+$ git clone https://github.com/Ladvace/astro-bento-portfolio
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;# Go into the repository
+$ cd astro-bento-portfolio
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;# Install dependencies
+$ pnpm install
+or
+$ npm install
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;# Start the project in development
+$ pnpm run dev
+or
+$ npm run dev
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1&gt;Be sure to replace the momoji and all the relative information, such as email, website and other info, if you don&apos;t your website is gonna point to my domain and to my info&lt;/h1&gt;
+&lt;h2&gt;REMOVE THE umami analytics script tag (or replace it with your id) in &lt;code&gt;src/layouts/Layout.astro&lt;/code&gt;&lt;/h2&gt;
+&lt;h1&gt;Configuration&lt;/h1&gt;
+&lt;p&gt;remember to replace the &lt;code&gt;site&lt;/code&gt; and other properties with your data in &lt;code&gt;astro.config.mjs&lt;/code&gt;&lt;/p&gt;
+&lt;h1&gt;Deploy on Netlify 🚀&lt;/h1&gt;
+&lt;p&gt;Deploying your website on Netlify it&apos;s optional but I reccomand it in order to deploy it faster and easly.&lt;/p&gt;
+&lt;p&gt;You just need to fork this repo and linking it to your Netlify account.&lt;/p&gt;
+&lt;p&gt;or&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://app.netlify.com/start/deploy?repository=https://github.com/Ladvace/astro-bento-portfolio&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Authors ❤️&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Gianmarco - https://github.com/Ladvace&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded></item></channel></rss>

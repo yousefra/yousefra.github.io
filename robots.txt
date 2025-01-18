@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yousefra.github.io/sitemap-index.xml
