@@ -9,6 +9,7 @@ import svelte from "@astrojs/svelte";
 
 export default defineConfig({
   site: "https://yousefra.github.io",
+  base: "/",
   integrations: [
     sitemap(),
     robotsTxt(),
